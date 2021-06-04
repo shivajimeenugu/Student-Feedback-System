@@ -1,0 +1,1 @@
+CREATE TABLE `yc_log`.`letc` ( `id` INT(255) NOT NULL AUTO_INCREMENT , `emp_name` TEXT NOT NULL , `emp_code` VARCHAR(50) NOT NULL , `emp_branch` VARCHAR(25) NOT NULL , `emp_dg` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;

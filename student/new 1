@@ -1,0 +1,13 @@
+else{
+	echo '<div id="id01" class="w3-modal  w3-animate-zoom">
+    <div class="w3-modal-content w3-padding-16 w3-card">
+      <div class="w3-container">';
+	  $sel_query_get="Select * from sub_db where sub_allotted='$emp_code' ";
+		$result_get = mysqli_query($con,$sel_query_get);
+		while($row_get = mysqli_fetch_assoc($result_get)) {
+			
+		} 
+	  
+	  echo '</div></div></div>'; 
+	  echo'<script>document.getElementById("id01").style.display="block"</script>';
+}
